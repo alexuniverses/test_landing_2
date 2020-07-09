@@ -6,7 +6,8 @@
         "../sass/_grid.sass",
         "../sass/_fonts.scss",
         "../sass/sections/_header.sass",
-        "../sass/sections/_content_section.sass"
+        "../sass/sections/_content_section.sass",
+        "../sass/sections/_iframe.sass"
     ],
     "names": [],
     "file": "mainstyle.css"
