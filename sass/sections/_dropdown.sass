@@ -1,0 +1,41 @@
+.dropdown
+    margin-top: 10%
+    &__left-side
+        h1
+            margin-top: 40%
+            font-family: PT-Serif-Regular
+            font-style: normal
+            font-weight: normal
+            font-size: 48px
+            line-height: 140%
+            color: #402B2B
+    &__right-side
+        img
+            margin-top: 10%
+.accordion 
+    background-color: #eee
+    color: #444
+    cursor: pointer
+    padding: 18px
+    width: 100%
+    text-align: left
+    border: none
+    outline: none
+    transition: 0.4s
+.active .accordion:hover 
+    background-color: #ccc
+.panel
+    padding: 0 18px
+    background-color: white
+    max-height: 0
+    overflow: hidden
+    transition: max-height 0.2s ease-out
+.accordion::after 
+    content: '\02795'
+    font-size: 13px
+    color: #777
+    float: right
+    margin-left: 5px
+
+.active::after 
+  content: "\2796"

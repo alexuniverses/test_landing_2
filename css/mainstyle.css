@@ -21,6 +21,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.dropdown {
+  background: url(/img/bg-photo/dropdown-bg.png);
+  height: 1030px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 @font-face {
   font-family: "SignikaRegular";
   src: url("../fonts/Signika-Regular.ttf") format("truetype");
@@ -245,5 +252,61 @@ body {
 
 #video-position {
   margin-top: 60px;
+}
+
+.dropdown {
+  margin-top: 10%;
+}
+
+.dropdown__left-side h1 {
+  margin-top: 40%;
+  font-family: PT-Serif-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 140%;
+  color: #402B2B;
+}
+
+.dropdown__right-side img {
+  margin-top: 10%;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.active .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion::after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\2796";
 }
 /*# sourceMappingURL=mainstyle.css.map */
