@@ -1,1 +1,158 @@
-/* No CSS *//*# sourceMappingURL=mainstyle.css.map */
+body {
+  margin: 0 auto;
+}
+
+.container-fluid {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  height: 737px;
+  background: url(/img/bg-photo/header-bg.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.header ul li {
+  padding: 0;
+}
+
+@font-face {
+  font-family: "SignikaRegular";
+  src: url("../fonts/Signika-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "SignikaSemibold";
+  src: url("../fonts/Signika-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "DMSerif-Display-Regular";
+  src: url("../fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PT-Serif-Regular";
+  src: url("../fonts/PTSerif-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Rubik-regular";
+  src: url("../fonts/Rubik-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navbar img {
+  padding-right: 12px;
+}
+
+.navbar a {
+  font-family: Roboto-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  color: #505050;
+}
+
+.navbar ul {
+  margin-left: 132px;
+}
+
+.navbar li a {
+  margin-right: 50px;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  color: #717784 !important;
+}
+
+.navbar #header_nav_btn {
+  width: 220px;
+  height: 60px;
+  font-family: Poppins-Regular;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  background: #9B9BCA;
+  border-radius: 10px;
+}
+
+.header_text_section {
+  margin-top: 13%;
+}
+
+.header_text_section h1 {
+  font-family: DMSerif-Display-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 100%;
+  color: #696A86;
+}
+
+.header_text_section p {
+  margin-top: 30px;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #696A86;
+}
+
+.header_text_section button {
+  margin-top: 30px;
+  width: 234px;
+  height: 60px;
+  background: #9B9BCA;
+  border-radius: 10px;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=mainstyle.css.map */
