@@ -229,4 +229,21 @@ body {
   font-size: 18px;
   line-height: 30px;
 }
+
+.iframe-section {
+  margin-top: 10%;
+}
+
+.iframe-section h1 {
+  font-family: PT-Serif-Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 140%;
+  color: #402B2B;
+}
+
+#video-position {
+  margin-top: 60px;
+}
 /*# sourceMappingURL=mainstyle.css.map */
