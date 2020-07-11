@@ -1,8 +1,24 @@
 .dropdown
     margin-top: 10%
+    &__btn
+        margin: 15% auto auto auto
+        display: block
+        width: 40vw
+        height: 90px
+        background: #9B9BCA
+        border-radius: 10px
+        font-family: Rubik-Regular
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        line-height: 30px
+        letter-spacing: 0.05em
+        text-transform: uppercase
+        color: #FFFFFF
     &__left-side
         h1
             margin-top: 40%
+            margin-bottom: 30%
             font-family: PT-Serif-Regular
             font-style: normal
             font-weight: normal
@@ -11,31 +27,75 @@
             color: #402B2B
     &__right-side
         img
-            margin-top: 10%
+            margin-top: 20%
+            margin-bottom: -120px
 .accordion 
+    margin-top: 12px
     background-color: #eee
     color: #444
     cursor: pointer
     padding: 18px
     width: 100%
+    height: 120px
+    background: #FFFFFF
+    box-shadow: 0px 5px 10px #E0E0E0
+    border-radius: 23px
     text-align: left
-    border: none
     outline: none
     transition: 0.4s
+    font-family: Poppins-Regular
+    font-style: normal
+    font-weight: normal
+    font-size: 18px
+    line-height: 30px
+    color: #402B2B
 .active .accordion:hover 
     background-color: #ccc
 .panel
+    width: 100%
     padding: 0 18px
-    background-color: white
     max-height: 0
     overflow: hidden
     transition: max-height 0.2s ease-out
+    background: #F5F5FF
+    box-shadow: 0px 25px 59px rgba(191, 191, 236, 0.72)
+    border-radius: 10px
+    p
+        padding-top: 50px
+        padding-bottom: 100px
+        font-family: Poppins-Regular
+        font-style: normal
+        font-weight: lighter
+        font-size: 18px
+        line-height: 30px
+        color: #402B2B
 .accordion::after 
-    content: '\02795'
+    content: url(/img/icons/chevron-right.png)
     font-size: 13px
     color: #777
     float: right
     margin-left: 5px
 
 .active::after 
-  content: "\2796"
+  content: url(/img/icons/chevron-right.png)
+  transition: 0.1s
+  transform: rotate(90deg)
+@media screen and (max-width: 768px)
+    .dropdown
+        margin-top: 10%
+        &__btn
+            margin: 15% auto auto auto
+            display: block
+            width: 90vw
+            height: 90px
+            background: #9B9BCA
+            border-radius: 10px
+            font-family: Rubik-Regular
+            font-style: normal
+            font-weight: bold
+            font-size: 18px
+            line-height: 30px
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: #FFFFFF
+    
