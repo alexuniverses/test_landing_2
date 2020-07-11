@@ -28,6 +28,10 @@ body {
   background-position: right;
 }
 
+section {
+  margin-top: 10%;
+}
+
 @font-face {
   font-family: "SignikaRegular";
   src: url("../fonts/Signika-Regular.ttf") format("truetype");
@@ -275,6 +279,28 @@ body {
   color: #FFFFFF;
 }
 
+.dropdown__under_text {
+  margin-top: 13%;
+  font-family: Poppins-Regular;
+  font-style: normal;
+  text-align: center;
+}
+
+.dropdown__under_text h1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+  color: #626780;
+}
+
+.dropdown__under_text p {
+  margin-top: 12px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #626780;
+}
+
 .dropdown__left-side h1 {
   margin-top: 40%;
   margin-bottom: 30%;
@@ -365,7 +391,6 @@ body {
   }
   .dropdown__btn {
     margin: 15% auto auto auto;
-    display: block;
     width: 90vw;
     height: 90px;
     background: #9B9BCA;
