@@ -1,4 +1,5 @@
 .navbar
+    position: relative
     img
         padding-right: 12px
     a
@@ -29,7 +30,6 @@
         border-radius: 10px   
 .header_text_section
     margin-top: 13%
-    position: static
     h1
         font-family: DMSerif-Display-Regular
         font-style: normal
@@ -70,7 +70,7 @@
             color: #505050 !important
         ul
             margin-left: 0
-            background: rgba(74, 69, 69, 0.1)
+            background: white
         li a
             margin-left: 30px
             font-family: Poppins-Regular
@@ -79,16 +79,50 @@
             font-size: 25px
             line-height: 38px
             color: #717784 !important
+@media screen and ( max-width: 1050px )
     #header_nav_btn
-        width: 200px
-        height: 60px
-        font-family: Poppins-Regular
-        font-weight: 600
-        color: white
-        font-size: 18px
-        background: #9B9BCA
-        border-radius: 10px   
-
+        display: none
+@media screen and ( max-width: 420px )
+    .navbar
+        img
+            padding-right: 12px
+        a
+            font-family: Roboto-Regular
+            font-style: normal
+            font-weight: bold
+            font-size: 0
+            line-height: 26px
+            color: #505050 !important
+    .header_text_section
+        margin-top: 13%
+        h1
+            font-family: DMSerif-Display-Regular
+            font-style: normal
+            font-weight: normal
+            font-size: 30px
+            line-height: 100%
+            color: #696A86  
+        p
+            margin-top: 30px
+            font-family: Poppins-Regular
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 27px
+            color: #696A86
+        button
+            margin-top: 28px
+            width: 80%
+            height: 60px
+            background: #9B9BCA
+            border-radius: 10px
+            font-family: Poppins-Regular
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 27px
+            color: #FFFFFF
+    
     
     
 
