@@ -154,7 +154,7 @@ body {
 
 .header_text_section {
   margin-top: 13%;
-  position: relative;
+  position: static;
 }
 
 .header_text_section h1 {
@@ -177,7 +177,7 @@ body {
 }
 
 .header_text_section button {
-  margin-top: 30px;
+  margin-top: 28px;
   width: 234px;
   height: 60px;
   background: #9B9BCA;
@@ -255,6 +255,7 @@ body {
   font-family: Poppins-Regular;
   font-style: normal;
   text-align: center;
+  height: 250px;
 }
 
 .content-section .container .icons-card-block .col-md-3 img {
@@ -909,6 +910,76 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    font-family: Poppins-Regular;
+    font-style: normal;
+  }
+  .footer__position_set {
+    margin: 0 auto;
+    font-family: Poppins-Regular;
+    font-style: normal;
+  }
+  .footer__position_set ul {
+    margin-top: 20px;
+  }
+  .footer__position_set li {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E6E6E6 !important;
+  }
+  .footer__position_set ul li {
+    list-style: none;
+  }
+  .footer__position_set ul li h1 {
+    padding-bottom: 12px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .copyright_section {
+    margin-top: 79px auto auto auto;
+    padding-bottom: 30px;
+  }
+  .copyright_section h3 {
+    font-family: Rubik-regular;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .copyright_section__img-group {
+    margin: 0 auto;
+  }
+  .copyright_section__img-group img {
+    margin: 0 auto;
+  }
+  .copyright_section h2 {
+    margin-left: 0;
+    display: inline;
+    font-family: Rammetto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  }
+  .copyright_section p {
+    display: inline;
+    margin-left: 8px;
+    font-family: Roboto-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
 }
 
 .pop-up-form {
